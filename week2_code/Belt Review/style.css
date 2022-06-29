@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    border-top: 7px solid darkmagenta;
+}
+
+.navleft{
+    width: 50%;
+    height: 50px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navleft h2 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.navright {
+    width: 50%;
+    height: 50px;
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.navrightcontent{
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navrightcontent selet {
+    height: 15px;
+    width: 60px;
+}
+
+.navrightcontent img {
+
+}
+
+.highlights{
+    margin-left: 100px;
+}
+.main{
+    height: 225px;
+    background-color: yellow;
+    display: flex;
+}
+
+.middlebars{
+    height: 50px;
+    background-color: orange;
+    display: flex;
+}
+
+.middlebars .tabs{
+    width: 40px;
+    height: 5px;
+    margin-left: 20px;
+    border-radius: 5%;
+    background-color: magenta;
+}
+
+.cards{
+    height: 175px;
+    background-color: palegoldenrod;
+    display: flex;
+}
+
+.card1{
+    height: 175px;
+    width: 150px;
+    background-color: aqua;
+}
+.card2{
+    height: 175px;
+    width: 150px;
+    background-color: black;
+}
+.card3{
+    height: 175px;
+    width: 150px;
+    background-color: aqua;
+}
+
+.cardbottom {
+    display: flex;
+}
+
+.logos {
+    display: flex;
+}
