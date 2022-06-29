@@ -1,0 +1,25 @@
+.searchButton {
+    width: 100px;
+    border: 2px solid seagreen;
+    border-radius: 15px;
+
+}
+
+.plusButton {
+    width: 30px;
+    height: 30px;
+    background-color: seagreen;
+    border: 2px solid seagreen;
+    font-size: 20px;
+    color: white;
+    border-radius: 100px;
+}
+
+.createButton {
+    width: 150px;
+    height: 30px;
+    border: 2px solid;
+    background-color: blue;
+    color: white;
+    box-shadow: 3px 3px 2px black;
+}

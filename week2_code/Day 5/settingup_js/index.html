@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting up JavaScript</title>
+
+
+    <!-- This links in the CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- You want to link the CSS file toward the top of the page because you want the style/look of 
+    the page to be one of the first things that renders when you load up your screen -->
+
+
+</head>
+
+<body>
+
+<!-- Click for  alerts -->
+    <button onclick="alert('What a beautiful day!')">Click Me!</button>
+
+
+<!-- Click to console log "Ninja Turtles are the Best Turtles from the JS file" -->
+    <button onclick="turtles()">Check the Console!</button>
+
+
+<!-- Click to console log the num counter from the JS file -->
+    <button onclick="counter()">Test</button>
+
+
+ <!-- "this" is refering to this whole element from <button> to </button> -->
+    <button onclick="example(this)">Click Me for "This"</button> 
+    <!-- Click to console log "This is a string!" from the JS file -->
+
+
+    <button onclick="turnOff(this)">On</button>
+    <button onclick="turnOff(this)">On</button>
+    <button onclick="turnOff(this)">On</button>
+    <!-- Using onclick with this linked to the javascript file now will switch the on button into an off button -->
+
+
+    <img src="ninja.png" alt="ninja" onclick="hide(this)">
+    <img src="ninja.png" alt="ninja" onclick="hide(this)">
+    <img src="ninja.png" alt="ninja" onclick="hide(this)">  
+    <!-- clicking on the ninjas will make them dissappear -->
+
+
+    <div class="block" onmouseover="over(this)" onmouseout="out(this)"></div>
+    <!-- hovering the mouse over the clock will call a pop up window -->
+
+
+    
+<!-- Thinks links in the JavaScript file -->
+    <script src="script.js"></script>
+    <!-- You want to link the javascript files down at the bottom of the page because you want functionality
+    to be the last thing to render on your page -->
+
+</body>
+</html>
